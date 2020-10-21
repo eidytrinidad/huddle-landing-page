@@ -1,0 +1,28 @@
+@mixin btn {
+    background-color: $Pink;
+    color: $Blanco;
+    border: none;
+    font-weight: 600;
+}
+
+@import 'fontsColors';
+@import 'mainTop';
+@import 'cardsMiddle.scss';
+@import 'footer.scss';
+@import 'mediaQ';
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: $font-openS;
+}
+
+.container{
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+}

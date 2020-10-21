@@ -1,0 +1,208 @@
+@media only screen and (max-width:450px) {
+    .mainTop {
+
+        height: 800px;
+
+
+        header {
+            width: 100%;
+
+            .container {
+                padding: 20px;
+
+                .logo {
+                    img {
+                        width: 100%;
+                        max-width: 150px;
+                    }
+                }
+
+                .btn-try {
+                    max-width: 130px;
+                    height: 35px;
+                }
+            }
+        }
+
+        .hero {
+
+            .container {
+                margin-top: 50px;
+                flex-flow: column;
+
+                .texto {
+                    width: 100%;
+                    max-width: 300px;
+                    margin-top: 0px;
+                    text-align: center;
+
+                    h2 {
+                        font-size: 1.5rem;
+                        margin-bottom: 2.5rem;
+                    }
+
+                    p {
+                        color: $VeryDarkCyan;
+                        margin-bottom: 2rem;
+                    }
+
+                    .btnGtarted {
+                        width: 100%;
+                        max-width: 200px;
+                        height: 50px;
+                    }
+                }
+
+                .mockup {
+                    margin-top: 3.5rem;
+                    width: 100%;
+                    max-width: 320px;
+                }
+            }
+        }
+    }
+
+
+    footer {
+        margin-top: 200px;
+        height: 920px;
+        padding: 20px;
+
+        .banner {
+            justify-content: space-evenly;
+            max-width: 350px;
+            height: 170px;
+            transform: translate(-50%,-60%);
+            h3 {
+                font-size: 1.2rem;
+                font-weight: 800;
+            }
+
+            .btn {
+                @include btn;
+                width: 100%;
+                max-width: 220px;
+                height: 40px;
+                font-size: 0.95rem;
+                font-weight: normal;
+
+            }
+        }
+
+        .container {
+
+            flex-flow: column;
+            font-size: 0.90rem;
+
+            .companyInfo {
+                width: 100%;
+                max-width: 350px;
+
+                .logo {
+                    img {
+                        width: 100%;
+                        max-width: 150px;
+                    }
+                }
+            }
+
+            nav {
+
+                margin-top: 40px;
+                flex-flow: column;
+            }
+
+            .socials {
+                width: 100%;
+                max-width: 100%;
+                margin-top: 50px;
+                text-align: center;
+
+                .redes {
+                    margin-bottom: 30px;
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    max-width: 100%;
+
+                    a {
+                        color: $Blanco;
+                        text-decoration: none;
+
+                        i {
+                            font-size: 0.8rem;
+                            line-height: 25px;
+                            height: 25px;
+                            width: 25px;
+                            margin: 0 10px;
+                        }
+                    }
+                }
+
+
+            }
+        }
+    }
+
+    main {
+        width: 100%;
+        margin-top: 100px;
+
+        .container {
+
+            
+       .top,.bottom{
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+       }
+       .center{
+        flex-direction: column;
+        justify-content: space-evenly;
+       }
+            .cards {
+    
+                padding: 0px;
+               
+                margin: 0 auto;
+                max-width: 350px;
+           
+                height:550px;
+                margin-bottom: 2.5rem;
+                
+                
+               
+                .left {
+               
+                    max-width: 300px;
+                    height: 170px;
+                    display: block;
+
+                    .texto {
+                        text-align: center;
+
+                        h3 {
+                            color: $VeryDarkCyan;
+                            font-size: 1.5rem;
+                            font-weight: 700;
+                            margin-bottom: 1rem;
+                        }
+
+                        p {
+                            color: $GrayishBlue;
+                        }
+                    }
+                }
+
+                .imagen {
+                    width: 100%;
+                    max-width: 270px;
+                 
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+
+        }
+    }
+}

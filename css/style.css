@@ -1,0 +1,325 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:ital,wght@1,600&display=swap");
+.mainTop {
+  width: 100%;
+  height: 715px;
+  background-color: #ebfbff;
+  background-image: url(../images/bg-hero-desktop.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .mainTop header {
+    width: 100%; }
+    .mainTop header .container {
+      padding-top: 3.125rem;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      .mainTop header .container .btn-try {
+        border: none;
+        font-weight: 600;
+        width: 100%;
+        max-width: 190px;
+        height: 45px;
+        background-color: #fff;
+        border-radius: 2.5rem;
+        box-shadow: 3px 4px 13px 0px rgba(204, 204, 204, 0.75); }
+  .mainTop .hero {
+    width: 100%; }
+    .mainTop .hero .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 80px; }
+      .mainTop .hero .container .texto {
+        width: 100%;
+        max-width: 511px;
+        margin-top: 100px; }
+        .mainTop .hero .container .texto h2 {
+          color: #00252e;
+          font-size: 3rem;
+          margin-bottom: 2.5rem; }
+        .mainTop .hero .container .texto p {
+          color: #00252e;
+          margin-bottom: 1.5rem;
+          font-weight: 500; }
+        .mainTop .hero .container .texto .btnGtarted {
+          background-color: #ff52bf;
+          color: #fff;
+          border: none;
+          font-weight: 600;
+          width: 100%;
+          max-width: 200px;
+          height: 50px;
+          border-radius: 2.5rem; }
+      .mainTop .hero .container .mockup {
+        width: 100%;
+        max-width: 680px; }
+        .mainTop .hero .container .mockup img {
+          width: 100%; }
+
+main {
+  width: 100%;
+  margin-top: 160px; }
+  main .container .cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 440px;
+    margin-bottom: 2.5rem;
+    border-radius: .33rem;
+    box-shadow: 3px 4px 13px 0px rgba(165, 165, 165, 0.75); }
+    main .container .cards .left {
+      width: 100%;
+      max-width: 600px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      main .container .cards .left .texto {
+        width: 100%;
+        height: 140px;
+        max-width: 450px; }
+        main .container .cards .left .texto h3 {
+          color: #00252e;
+          font-size: 2rem;
+          font-weight: 700;
+          margin-bottom: 1.5rem; }
+        main .container .cards .left .texto p {
+          color: #808d99; }
+    main .container .cards .imagen {
+      width: 100%;
+      max-width: 400px; }
+      main .container .cards .imagen img {
+        width: 100%; }
+
+footer {
+  margin-top: 345px;
+  width: 100%;
+  height: 551px;
+  background-color: #00252e;
+  position: relative; }
+  footer .banner {
+    box-shadow: 0px -7px 5px 0px rgba(207, 207, 207, 0.75);
+    border-radius: 1.7rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 800px;
+    height: 280px;
+    background-color: #fff;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center; }
+    footer .banner h3 {
+      font-size: 2.5rem;
+      color: #00252e;
+      text-align: center;
+      font-weight: 700; }
+    footer .banner .btn {
+      background-color: #ff52bf;
+      color: #fff;
+      border: none;
+      font-weight: 600;
+      width: 100%;
+      max-width: 400px;
+      height: 78px;
+      font-size: 18px;
+      border-radius: 3rem;
+      display: block; }
+  footer .container {
+    padding-top: 220px;
+    display: flex;
+    justify-content: space-between; }
+    footer .container .companyInfo {
+      width: 100%;
+      max-width: 368px;
+      color: #fff; }
+      footer .container .companyInfo .logo {
+        margin-bottom: 2rem; }
+      footer .container .companyInfo .info {
+        display: flex;
+        margin-bottom: 2rem; }
+        footer .container .companyInfo .info i,
+        footer .container .companyInfo .info img {
+          margin-right: 1rem; }
+    footer .container nav {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 315px; }
+      footer .container nav ul {
+        color: #fff;
+        list-style: none;
+        font-weight: 500; }
+        footer .container nav ul li {
+          margin-bottom: 1rem; }
+    footer .container .socials {
+      width: 100%;
+      max-width: 300px;
+      display: flex;
+      flex-flow: column;
+      justify-content: space-between; }
+      footer .container .socials .copyright {
+        font-size: 0.85rem;
+        color: #fff; }
+      footer .container .socials .redes {
+        display: flex;
+        justify-content: start;
+        width: 100%;
+        max-width: 300px; }
+        footer .container .socials .redes a {
+          color: #fff;
+          text-decoration: none; }
+          footer .container .socials .redes a i {
+            line-height: 35px;
+            height: 35px;
+            width: 35px;
+            border: 1px solid #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 1.5rem; }
+
+@media only screen and (max-width: 450px) {
+  .mainTop {
+    height: 800px; }
+    .mainTop header {
+      width: 100%; }
+      .mainTop header .container {
+        padding: 20px; }
+        .mainTop header .container .logo img {
+          width: 100%;
+          max-width: 150px; }
+        .mainTop header .container .btn-try {
+          max-width: 130px;
+          height: 35px; }
+    .mainTop .hero .container {
+      margin-top: 50px;
+      flex-flow: column; }
+      .mainTop .hero .container .texto {
+        width: 100%;
+        max-width: 300px;
+        margin-top: 0px;
+        text-align: center; }
+        .mainTop .hero .container .texto h2 {
+          font-size: 1.5rem;
+          margin-bottom: 2.5rem; }
+        .mainTop .hero .container .texto p {
+          color: #00252e;
+          margin-bottom: 2rem; }
+        .mainTop .hero .container .texto .btnGtarted {
+          width: 100%;
+          max-width: 200px;
+          height: 50px; }
+      .mainTop .hero .container .mockup {
+        margin-top: 3.5rem;
+        width: 100%;
+        max-width: 320px; }
+
+  footer {
+    margin-top: 200px;
+    height: 920px;
+    padding: 20px; }
+    footer .banner {
+      justify-content: space-evenly;
+      max-width: 350px;
+      height: 170px;
+      transform: translate(-50%, -60%); }
+      footer .banner h3 {
+        font-size: 1.2rem;
+        font-weight: 800; }
+      footer .banner .btn {
+        background-color: #ff52bf;
+        color: #fff;
+        border: none;
+        font-weight: 600;
+        width: 100%;
+        max-width: 220px;
+        height: 40px;
+        font-size: 0.95rem;
+        font-weight: normal; }
+    footer .container {
+      flex-flow: column;
+      font-size: 0.90rem; }
+      footer .container .companyInfo {
+        width: 100%;
+        max-width: 350px; }
+        footer .container .companyInfo .logo img {
+          width: 100%;
+          max-width: 150px; }
+      footer .container nav {
+        margin-top: 40px;
+        flex-flow: column; }
+      footer .container .socials {
+        width: 100%;
+        max-width: 100%;
+        margin-top: 50px;
+        text-align: center; }
+        footer .container .socials .redes {
+          margin-bottom: 30px;
+          display: flex;
+          justify-content: center;
+          width: 100%;
+          max-width: 100%; }
+          footer .container .socials .redes a {
+            color: #fff;
+            text-decoration: none; }
+            footer .container .socials .redes a i {
+              font-size: 0.8rem;
+              line-height: 25px;
+              height: 25px;
+              width: 25px;
+              margin: 0 10px; }
+
+  main {
+    width: 100%;
+    margin-top: 100px; }
+    main .container .top, main .container .bottom {
+      flex-direction: column-reverse;
+      justify-content: space-evenly; }
+    main .container .center {
+      flex-direction: column;
+      justify-content: space-evenly; }
+    main .container .cards {
+      padding: 0px;
+      margin: 0 auto;
+      max-width: 350px;
+      height: 550px;
+      margin-bottom: 2.5rem; }
+      main .container .cards .left {
+        max-width: 300px;
+        height: 170px;
+        display: block; }
+        main .container .cards .left .texto {
+          text-align: center; }
+          main .container .cards .left .texto h3 {
+            color: #00252e;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem; }
+          main .container .cards .left .texto p {
+            color: #808d99; }
+      main .container .cards .imagen {
+        width: 100%;
+        max-width: 270px; }
+        main .container .cards .imagen img {
+          width: 100%; } }
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: "Open Sans", sans-serif; }
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: auto; }
+
+/*# sourceMappingURL=style.css.map */
